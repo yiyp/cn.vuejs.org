@@ -227,7 +227,7 @@ var app5 = new Vue({
 {% raw %}
 <div id="app-5" class="demo">
   <p>{{ message }}</p>
-  <button v-on:click="reverseMessage">逆转消息</button>
+  <button v-on:click="reverseMessage">反转消息</button>
 </div>
 <script>
 var app5 = new Vue({
@@ -253,7 +253,7 @@ Vue 还提供了 `v-model` 指令，它能轻松实现表单输入和应用状�
   <p>{{ message }}</p>
   <input v-model="message">
 </div>
-```
+```f
 ``` js
 var app6 = new Vue({
   el: '#app-6',
